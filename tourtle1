@@ -1,6 +1,13 @@
-import turtle
+import turtle           # importo biblioteca llamada turtle desde Python
 
-t = turtle.Turtle ()
+t = turtle.Turtle ()    # creo t (abreviación de turtle)
 
-t.shape ("turtle")
-t.forward (100)
+t.shape ("turtle")      # uso cursor con figura de tortuga
+
+t.forward (100)         # avanzo 100
+t.left (90)             # giro hacia la izquierda en 90°
+t.forward (100)         # avanzo 100
+t.left (90)             # giro hacia la izquierda en 90°
+t.forward (100)         # avanzo 100
+t.left (90)             # giro hacia la izquierda en 90°
+t.forward (100)         # avanzo 100
