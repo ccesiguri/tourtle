@@ -1,0 +1,16 @@
+import turtle          # importo biblioteca turtle
+
+t = turtle.Turtle ()   # defino turtle
+
+t.shape ("turtle")     # uso cursor con forma de turtle
+
+                       # creo triángulo
+
+t.forward (100)
+t.left (120)
+
+t.forward (100)
+t.left (120)
+
+t.forward (100)
+t.left (120)
